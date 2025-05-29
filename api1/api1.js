@@ -29,7 +29,7 @@ const alphabet = [
   "y",
   "z",
 ];
-const regExModel = /[^a-zA-Z0-9\s]/;
+const regExModel = /^[a-zA-Z0-9\s]/;
 const regExYear = /^[1-2]\d{3}/;
 
 const app = express();
